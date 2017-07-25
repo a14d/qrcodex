@@ -34,7 +34,7 @@ Add :qrcode to `mix.deps`
 ::
 
     defp deps do
-      [{:qrcode, git: “git@gitlab.com:Pacodastre/qrcode.git”}]
+      {:qrcode, github: "abderrahmaneayad/qrcodex"},
     end
 
 Then run:
